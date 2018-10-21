@@ -1,0 +1,130 @@
+@media all and (max-width: 984px) {
+
+    .blog_img {
+        display: none;
+    }
+    .blog_info {
+        margin: 0 auto;
+    }
+    .form_and_speech {
+        max-width: 348px;
+        margin-left: -174px;
+        bottom: 10px;
+    }
+    p.speech {
+        margin: 0 24px;
+    }
+    .container_for_form {
+        margin: 60px 0 0;
+    }
+    input[type=submit] {
+        margin-left: 0;
+    }
+
+    nav label {
+        display: inline-block;
+    }
+    nav > ul {
+        display: none;
+    }
+    input[type="checkbox"]:checked ~ label + ul {
+        display: flex;
+        flex-direction: column;
+    }
+    .logo {
+        display: none;
+    }
+    nav {
+        background-color: rgba(0, 0, 0, 0.9);
+        width: 100%;
+    }
+    nav > ul > li {
+        display: flex;
+        margin-left: 20px;
+        justify-content: center;
+        line-height: 60px;
+    }
+
+}
+
+@media all and (max-width: 1170px) {
+    .clients_right {
+        display: none;
+    }
+    .clients_left {
+        margin: 0 auto;
+    }
+    .right_about_creativa {
+        display: none;
+    }
+    .left_about_creativa_img,
+    .right_about_creativa_img,
+    .about_creativia_img {
+        display: none;
+    }
+    .left_about_creativa {
+        margin: 0 auto;
+        height: 300px;
+    }
+
+    /*    Продукт*/
+    .product {
+        height: 100%;
+    }
+    .product_phone {
+        display: none;
+    }
+    .product .contaner {
+        padding-bottom: 75px;
+    }
+    .our_product {
+        justify-content: center;
+    }
+    .products {
+        margin: 0 10px 25px 10px;
+    }
+
+}
+
+
+@media all and (max-width: 570px) {
+    .clients_slider {
+        width: 300px;
+    }
+    #btn1:checked ~ .clients_slider_inner .clients_cards {
+        transform: translate(0);
+    }
+
+    #btn2:checked ~ .clients_slider_inner .clients_cards {
+        transform: translate(-300px);
+    }
+
+
+    #btn3:checked ~ .clients_slider_inner .clients_cards {
+        transform: translate(-600px);
+    }
+}
+
+@media all and (max-width: 390px) {
+    .products > div > h3 {
+        font-size: 16px;
+    }
+    .left_about_creativa {
+        height: 400px;
+    }
+    .container_for_form{
+        padding: 5px;
+        margin: 60px 0 0 10px;
+    }
+}
+/*
+@media all and (max-width: 371px) {
+   .form_and_speech{
+        margin-left: -140px;
+    }
+}
+*/
+/*
+
+@media all and (max-width: 1024px) and (min-width: 768px) {}
+*/
